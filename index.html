@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              hekanize: "#408FEF",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Report</title>
+  </head>
+  <body class="mx-6 mt-8 mb-3">
+    <div class="min-h-screen">
+      <header class="mb-7">
+        <div class="flex justify-between mb-2">
+          <div>
+            <h2 class="font-extrabold text-4xl mb-1">Senior Frontend Developer</h2>
+          <a
+            href="https://hekanize.com/"
+            target="_blank"
+            class="group w-fit inline-block"
+          >
+            <p class="font-bold text-xl text-white relative hover:underline">
+              Hekanize
+            </p>
+          </a>
+          </div>
+          <image class="w-20 h-20" src="assets/working-at-home.png" />
+        </div>
+        <div class="flex gap-2">
+          <image class="w-6 h-6" src="assets/calendar.png" />
+          <p>September 2024 - April 2025 <span class="italic text-xs">(7 months)</span></p>
+        </div>
+        <div class="mt-4">
+          <image
+            class="h-32 rounded-xl border-2"
+            src="assets/andreialbu.jpeg"
+          />
+          <p>Albu Cosmin Andrei</p>
+        </div>
+      </header>
+      <hr />
+      <main class="mt-3">
+        <div class="mb-6">
+          <h3 class="font-semibold mb-1">Description</h3>
+          <p class="lg:w-5/12">
+            As a Senior Frontend Developer at Hekanize, I led the development 
+            of a modular and scalable dashboard using Vue 3, TypeScript, Tailwind CSS, 
+            Pinia, and Vite. I implemented SAML-based authentication flows, designed 
+            reusable widget components, and published two internal libraries as private 
+            npm packages. I also mentored junior developers and worked closely with 
+            backend and product teams to ensure seamless integration and a high-quality
+            user experience.
+          </p>
+        </div>
+        <div class="mb-6">
+          <h3 class="font-semibold mb-1">Main projects I worked on</h3>
+          <table class="lg:text-lg m-2 ml-0 desktop-table">
+            <thead>
+              <tr>
+                <th>Site</th>
+                <th>Client</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a href="https://www.euroconference.it/" target="_blank"
+                    >Euroconference</a
+                  >
+                </td>
+                <td class="client">
+                  <a href="https://www.teamsystem.com/" target="_blank"
+                    >TeamSystem</a
+                  >
+                </td>
+                <td>
+                  Developed RESTful APIs and backend services using .NET
+                  Framework 6, and improved server-side Razor Pages performance.
+                  On the frontend, I used Vue.js 2 to enhance interactivity and
+                  resolve UI issues. I managed and optimized the SQL Server
+                  database, creating new tables and refining existing queries.
+                  Refactored and modernized the Reserved Area, significantly
+                  improving performance, maintainability, and user experience.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://www.ecnews.it/" target="_blank"
+                    >Euroconference News</a
+                  >
+                </td>
+                <td class="client">
+                  <a href="https://www.teamsystem.com/" target="_blank"
+                    >TeamSystem</a
+                  >
+                </td>
+                <td>
+                  On the frontend, I worked with Vue.js to enhance user
+                  experience and resolve bugs. On the backend, I rarely used
+                  <a href="https://wordpress.com/">WordPress</a> and
+                  <a href="https://www.php.net/">PHP</a> to build and maintain
+                  functionality.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://www.barchetti.it/" target="_blank"
+                    >Gruppo Barchetti</a
+                  >
+                </td>
+                <td class="client">
+                  <a href="https://www.barchetti.it/" target="_blank"
+                    >Barchetti</a
+                  >
+                </td>
+                <td>
+                  Enhanced the login page and car registration process,
+                  resolving various bugs. I worked with Angular.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- mobile tables -->
+          <table class="mobile-table">
+            <tr>
+              <th>Site</th>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://www.euroconference.it/" target="_blank"
+                  >Euroconference</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>Client</th>
+            </tr>
+            <tr>
+              <td class="client">
+                <a href="https://www.teamsystem.com/" target="_blank"
+                  >TeamSystem</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>
+                Developed web services and APIs, maintained and optimized a SQL
+                Server database, and created new database tables. Refactored and
+                enhanced the reserved area, leading to improved performance and
+                user experience.
+              </td>
+            </tr>
+          </table>
+          <table class="mobile-table">
+            <tr>
+              <th>Site</th>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://www.ecnews.it/" target="_blank"
+                  >Euroconference News</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>Client</th>
+            </tr>
+            <tr>
+              <td class="client">
+                <a href="https://www.teamsystem.com/" target="_blank"
+                  >TeamSystem</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>
+                On the frontend, I worked with Vue.js to enhance user experience
+                and resolve bugs. On the backend, I utilized
+                <a href="https://wordpress.com/">WordPress</a> and
+                <a href="https://www.php.net/">PHP</a> to build and maintain
+                functionality.
+              </td>
+            </tr>
+          </table>
+          <table class="mobile-table">
+            <tr>
+              <th>Site</th>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://www.barchetti.it/" target="_blank"
+                  >Gruppo Barchetti</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>Client</th>
+            </tr>
+            <tr>
+              <td class="client">
+                <a href="https://www.barchetti.it/" target="_blank"
+                  >Barchetti</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>
+                Enhanced the login page and car registration process, resolving
+                various bugs. I worked with Angular.
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="mb-6">
+          <h3 class="font-semibold mb-1">Key Achievements</h3>
+          <ol class="list-decimal lg:w-5/12 pl-5">
+            <li>
+              As my first work experience, it was a valuable opportunity to
+              begin my journey into web development.
+            </li>
+            <li>Enhanced my teamwork skills.</li>
+            <li>
+              Acquired a solid understanding of software pipelines, from
+              development through to production.
+            </li>
+            <li>
+              Acquired knowledge in Server-Side Rendering through cshtml
+              development.
+            </li>
+            <li>
+              This experience confirmed that software development is what I
+              truly want to pursue.
+            </li>
+          </ol>
+        </div>
+        <div class="mb-6 flex justify-center items-center flex-col">
+          <h3 class="font-semibold mb-1 text-black">Technologies used</h3>
+          <div>
+            <div class="flex gap-2 align-center">
+              <a class="self-center" href="https://vuejs.org/" target="_blank"
+                ><image src="assets/vuejs-icon.svg"
+              /></a>
+              <a class="self-center" href="https://www.typescriptlang.org/" target="_blank">
+                <img src="assets/typescript.svg" alt="TypeScript" />
+              </a>
+              <a
+                class="self-center"
+                href="https://vite.dev/"
+                target="_blank"
+                ><image src="assets/Vite.js.svg"
+              /></a>
+              <a
+                class="self-center"
+                href="https://pinia.vuejs.org/"
+                target="_blank"
+                ><image src="assets/pinia.svg"
+              /></a>
+              <a
+                class="self-center"
+                href="https://lit.dev/"
+                target="_blank"
+                ><image src="assets/lit.svg"
+              /></a>
+              <a
+                class="self-center"
+                href="https://tailwindcss.com/"
+                target="_blank"
+                ><image src="assets/tailwindCSS.svg"
+              /></a>
+              <a
+                class="self-center"
+                href="https://www.docker.com/"
+                target="_blank"
+                ><image src="assets/docker-svgrepo-com.svg"
+              /></a>
+              <a class="self-center" href="https://git-scm.com/" target="_blank"
+                ><image src="assets/git-icon-logo-svgrepo-com.svg"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="flex flex-col justify-center items-center gap-2 mb-5">
+        <div class="flex gap-4">
+          <a href="https://github.com/albycosmy99" target="_blank"><button class="bg-hekanize border-2 border-white px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-white hover:text-hekanize">GitHub</button></a>
+          <a href="https://www.linkedin.com/in/andrei-albudev/" target="_blank"><button class="bg-hekanize border-2 border-white px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-white hover:text-hekanize">LinkedIn</button></a>
+        </div>
+      <a
+        href="https://www.flaticon.com/free-icons/computer"
+        title="computer icons"
+        class="text-black"
+        >Computer icons created by juicy_fish - Flaticon</a
+      >
+      <div class="text-black">
+        <a target="_blank" href="https://icons8.com/icon/71257/angularjs"
+          >angular</a
+        >
+        icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+      </div>
+      <p class="text-black text-center">
+        © 2025 Albu Cosmin Andrei. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  body {
+    background: linear-gradient(
+      180deg,
+      rgba(64, 143, 239, 1) 0%,
+      rgba(64, 143, 239, 1) 65%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    color: white;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    text-align: left;
+    color: black;
+  }
+  th,
+  td {
+    padding: 12px 15px;
+    border: 1px solid black;
+  }
+  th {
+    background-color: #408FEF;
+    color: white;
+  }
+  tr {
+    background-color: #f9f9f9;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .client {
+    text-align: center;
+  }
+  .mobile-table {
+    display: none;
+  }
+  .color-black {
+    color: black;
+  }
+  button {
+    color: white;
+    background-color: #408FEF;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  #net-tutorial {
+    display: none;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .client {
+      text-align: start;
+    }
+    .mobile-table {
+      display: block;
+    }
+    .desktop-table {
+      display: none;
+    }
+  }
+</style>
